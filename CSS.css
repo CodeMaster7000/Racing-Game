@@ -1,0 +1,80 @@
+html, body {
+	background-color: black;
+}
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+kbd {
+	background-color: #eee;
+	border-radius: 3px;
+	border: 1px solid #b4b4b4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+	color: #333;
+	display: inline-block;
+	font-size: .85em;
+	font-weight: 700;
+	line-height: 1;
+	padding: 2px 4px;
+	white-space: nowrap;
+}
+
+div>p {
+	margin-left: 5px;
+}
+
+#racing-canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#startMenu {
+	width: 500px;
+	height: 400px;
+	background-color: lawngreen;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 1px 1px black, 2px 2px black, 3px 3px black;
+}
+
+#acc {
+	position: absolute;
+	left: 15%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 100px;
+}
+
+#brk {
+	position: absolute;
+	left: 15%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 100px;
+}
+
+#l {
+	position: absolute;
+	right: 150px;
+	top: 47.5%;
+	width: 100px;
+	height: 100px;
+	transform: translate(0, -50%);
+}
+
+#r {
+	position: absolute;
+	right: 0;
+	top: 47.5%;
+	width: 100px;
+	height: 100px;
+	transform: translate(0, -50%);
+}
